@@ -4,4 +4,32 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    background-color: #f4f5f4;
+}
+.grid-item{
+    border-radius: 5px;
+}
+.create-schedule{
+    background-color: #faefe3;
+}
+.social-media-title{
+    background-color: #7750dc;
+}
+.schedule-chart{
+    background-color: #dcd0fd;
+}
+.write-content{
+    background-color: #ffcc69;
+}
+.manage-accounts{
+    background-color: #fffefe;
+}
+.posting-schedule{
+    background-color: #ffcc69
+}
+.faster-audience{
+    background-color: #fffefe;
+}
+.growth-stats{
+    background-color: #7750dc;
 }
