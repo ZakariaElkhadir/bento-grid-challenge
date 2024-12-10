@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+:root
+{
+--Purple-100: hsl(254, 88%, 90%);
+--Purple-500: hsl(256, 67%, 59%);
+
+--Yellow-100: hsl(31, 66%, 93%);
+--Yellow-500: hsl(39, 100%, 71%);
+
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 7%);
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400, 500;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -12,26 +29,26 @@
     border-radius: 5px;
 }
 .create-schedule{
-    background-color: #faefe3;
+    background-color: var(--Yellow-100);
 }
 .social-media-title{
-    background-color: #7750dc;
+    background-color: var(--Purple-500);
 }
 .schedule-chart{
-    background-color: #dcd0fd;
+    background-color: var(--Purple-100);
 }
 .write-content{
-    background-color: #ffcc69;
+    background-color: var(--Yellow-500);
 }
 .manage-accounts{
-    background-color: #fffefe;
+    background-color: var(--White);
 }
 .posting-schedule{
-    background-color: #ffcc69
+    background-color: var(--Yellow-500);
 }
 .faster-audience{
-    background-color: #fffefe;
+    background-color: white;
 }
 .growth-stats{
-    background-color: #7750dc;
+    background-color: var(--Purple-500);
 }
